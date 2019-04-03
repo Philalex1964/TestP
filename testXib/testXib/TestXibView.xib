@@ -12,6 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestXibView" customModule="testXib" customModuleProvider="target">
             <connections>
+                <outlet property="deliveryLabel" destination="M7e-rJ-JKF" id="JDj-LC-yV4"/>
+                <outlet property="ownershipLabel" destination="493-Xs-CWe" id="m8F-hZ-uzT"/>
+                <outlet property="rentButton" destination="efu-TQ-G29" id="ZBd-uf-mip"/>
+                <outlet property="titleLabel" destination="Tb5-jh-TNy" id="ZUg-7m-RX6"/>
+                <outlet property="transportationButton" destination="I2M-zS-Osd" id="XCd-is-e9V"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
