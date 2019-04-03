@@ -10,10 +10,14 @@ import UIKit
 
 class TestXibViewController: UIViewController {
 
+    //var testView = TestXibView()
+//    var customView = Bundle.main.loadNibNamed("TestXibView", owner: self, options: nil)?.first as! TestXibView
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //self.view.addSubview(customView)
 
-        // Do any additional setup after loading the view.
+        //self.view = testView
     }
 
 

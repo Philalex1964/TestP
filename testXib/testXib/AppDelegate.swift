@@ -12,18 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var naviApp: UINavigationController?
-    var testXibViewController: TestXibViewController?
+//    var naviApp: UINavigationController?
+//    var testXibViewController: TestXibViewController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        window = UIWindow(frame: UIScreen.main.bounds)
+        /*window = UIWindow(frame: UIScreen.main.bounds)
         testXibViewController = TestXibViewController(nibName: "TestXibView", bundle: Bundle.main)
         naviApp = UINavigationController(rootViewController: testXibViewController!)
         window?.rootViewController = naviApp
-        window?.makeKeyAndVisible()
+        window?.makeKeyAndVisible()*/
         
         return true
     }
