@@ -39,6 +39,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C36A3C32261300A0072E02E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FB2A222539553005CF327 /* TestXibView.xib */,
+				2C44436222555F0600FE1F5A /* main.storyboard */,
+				2C3FB2962253938D005CF327 /* Assets.xcassets */,
+				2C3FB2982253938D005CF327 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C36A3C4226130230072E02E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FB2A122539553005CF327 /* TestXibViewController.swift */,
+				2CFE77E622540A120069CFAA /* TestXibView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		2C3FB2832253938B005CF327 = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				2C3FB28F2253938B005CF327 /* AppDelegate.swift */,
-				2C3FB2A122539553005CF327 /* TestXibViewController.swift */,
-				2C3FB2A222539553005CF327 /* TestXibView.xib */,
-				2CFE77E622540A120069CFAA /* TestXibView.swift */,
-				2C44436222555F0600FE1F5A /* main.storyboard */,
-				2C3FB2962253938D005CF327 /* Assets.xcassets */,
-				2C3FB2982253938D005CF327 /* LaunchScreen.storyboard */,
+				2C36A3C4226130230072E02E /* Controllers */,
+				2C36A3C32261300A0072E02E /* View */,
 				2C3FB29B2253938D005CF327 /* Info.plist */,
 			);
 			path = testXib;
