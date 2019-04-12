@@ -15,8 +15,8 @@ class TestXibView: UIView {
     @IBOutlet weak var deliveryButton: UILabel!
     @IBOutlet weak var rentButton: UIButton!
     @IBOutlet weak var ownershipButton: UILabel!
-    
-    var view:UIView!
+    @IBOutlet weak var view:UIView!
+
     var nibName: String = "TestXibView"
     
     override init(frame: CGRect) {
@@ -28,22 +28,12 @@ class TestXibView: UIView {
         super.init(coder: aDecoder)
         setup()
     }
-    
-    func loadFromNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: nibName, bundle: bundle)
-        let view = nib.instantiate(withOwner: self, options: nil).first as! UIView
-        
-        return view
-    }
+
     
     func setup() {
-        view = loadFromNib()
-        view.frame = bounds
-        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        let bundle = Bundle(for: type(of: self))
+        bundle.loadNibNamed(nibName, owner: self, options: nil)
         
         addSubview(view)
     }
-    
-    
 }
