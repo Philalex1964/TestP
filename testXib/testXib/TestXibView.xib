@@ -12,11 +12,16 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestXibView" customModule="testXib" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="deliveryLabel" destination="M7e-rJ-JKF" id="YT8-mq-WaK"/>
+                <outlet property="ownershipLabel" destination="493-Xs-CWe" id="bNM-xR-o0o"/>
+                <outlet property="rentButton" destination="efu-TQ-G29" id="vlU-VX-Ti3"/>
+                <outlet property="titleLabel" destination="Tb5-jh-TNy" id="t5m-Hl-Gzh"/>
+                <outlet property="transportationButton" destination="I2M-zS-Osd" id="qSP-KK-S0I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Pd0-EL-FLA"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="TestXibView" customModule="testXib" customModuleProvider="target">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
