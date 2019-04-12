@@ -10,11 +10,12 @@ import UIKit
 
 class TestXibView: UIView {
 
-    @IBOutlet weak var titleButton: UILabel!
-    @IBOutlet weak var transportation: UIButton!
-    @IBOutlet weak var deliveryButton: UILabel!
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var transportationButton: UIButton!
+    @IBOutlet weak var deliveryLabel: UILabel!
     @IBOutlet weak var rentButton: UIButton!
-    @IBOutlet weak var ownershipButton: UILabel!
+    @IBOutlet weak var ownershipLabel: UILabel!
     @IBOutlet weak var view:UIView!
 
     var nibName: String = "TestXibView"

@@ -12,11 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestXibView" customModule="testXib" customModuleProvider="target">
             <connections>
-                <outlet property="deliveryButton" destination="M7e-rJ-JKF" id="bmy-CJ-KFX"/>
-                <outlet property="ownershipButton" destination="493-Xs-CWe" id="vSR-Za-z28"/>
+                <outlet property="deliveryLabel" destination="M7e-rJ-JKF" id="aOY-oj-TQk"/>
+                <outlet property="ownershipLabel" destination="493-Xs-CWe" id="Z1e-4K-2pw"/>
                 <outlet property="rentButton" destination="efu-TQ-G29" id="bYY-kS-Q1t"/>
-                <outlet property="titleButton" destination="Tb5-jh-TNy" id="65c-lf-F5k"/>
-                <outlet property="transportation" destination="I2M-zS-Osd" id="8JI-4q-mdp"/>
+                <outlet property="titleLabel" destination="Tb5-jh-TNy" id="7hE-OB-UGm"/>
+                <outlet property="transportationButton" destination="I2M-zS-Osd" id="b7m-8g-Qxq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,7 +25,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите вид услуги" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-jh-TNy">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите вид услуги" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-jh-TNy" userLabel="Title Label">
                     <rect key="frame" x="72" y="169" width="270" height="34"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="34" id="AEz-UQ-8rO"/>
