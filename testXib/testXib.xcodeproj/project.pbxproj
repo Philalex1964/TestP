@@ -10,9 +10,10 @@
 		2C3FB2902253938B005CF327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FB28F2253938B005CF327 /* AppDelegate.swift */; };
 		2C3FB2972253938D005CF327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FB2962253938D005CF327 /* Assets.xcassets */; };
 		2C3FB29A2253938D005CF327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FB2982253938D005CF327 /* LaunchScreen.storyboard */; };
-		2C3FB2A322539553005CF327 /* TestXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FB2A122539553005CF327 /* TestXibViewController.swift */; };
 		2C3FB2A422539553005CF327 /* TestXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3FB2A222539553005CF327 /* TestXibView.xib */; };
 		2CFE77E722540A120069CFAA /* TestXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE77E622540A120069CFAA /* TestXibView.swift */; };
+		2CFED9DA22620516003F29E8 /* TestXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFED9D822620516003F29E8 /* TestXibViewController.swift */; };
+		2CFED9DB22620516003F29E8 /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFED9D922620516003F29E8 /* TestXibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		2C3FB2962253938D005CF327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3FB2992253938D005CF327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C3FB29B2253938D005CF327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C3FB2A122539553005CF327 /* TestXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXibViewController.swift; sourceTree = "<group>"; };
 		2C3FB2A222539553005CF327 /* TestXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestXibView.xib; sourceTree = "<group>"; };
 		2CFE77E622540A120069CFAA /* TestXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXibView.swift; sourceTree = "<group>"; };
+		2CFED9D822620516003F29E8 /* TestXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXibViewController.swift; sourceTree = "<group>"; };
+		2CFED9D922620516003F29E8 /* TestXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestXibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				2C3FB28F2253938B005CF327 /* AppDelegate.swift */,
-				2C3FB2A122539553005CF327 /* TestXibViewController.swift */,
-				2C3FB2A222539553005CF327 /* TestXibView.xib */,
 				2CFE77E622540A120069CFAA /* TestXibView.swift */,
+				2CFED9D822620516003F29E8 /* TestXibViewController.swift */,
+				2CFED9D922620516003F29E8 /* TestXibViewController.xib */,
+				2C3FB2A222539553005CF327 /* TestXibView.xib */,
 				2C3FB2962253938D005CF327 /* Assets.xcassets */,
 				2C3FB2982253938D005CF327 /* LaunchScreen.storyboard */,
 				2C3FB29B2253938D005CF327 /* Info.plist */,
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFED9DB22620516003F29E8 /* TestXibViewController.xib in Resources */,
 				2C3FB29A2253938D005CF327 /* LaunchScreen.storyboard in Resources */,
 				2C3FB2972253938D005CF327 /* Assets.xcassets in Resources */,
 				2C3FB2A422539553005CF327 /* TestXibView.xib in Resources */,
@@ -145,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3FB2A322539553005CF327 /* TestXibViewController.swift in Sources */,
 				2C3FB2902253938B005CF327 /* AppDelegate.swift in Sources */,
+				2CFED9DA22620516003F29E8 /* TestXibViewController.swift in Sources */,
 				2CFE77E722540A120069CFAA /* TestXibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

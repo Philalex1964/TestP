@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        testXibViewController = TestXibViewController(nibName: "TestXibView", bundle: Bundle.main)
+        testXibViewController = TestXibViewController(nibName: "TestXibViewController", bundle: Bundle.main)
         naviApp = UINavigationController(rootViewController: testXibViewController!)
         window?.rootViewController = naviApp
         window?.makeKeyAndVisible()
