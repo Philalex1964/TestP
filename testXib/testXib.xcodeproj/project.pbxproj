@@ -61,13 +61,21 @@
 				2C3FB28F2253938B005CF327 /* AppDelegate.swift */,
 				2CFE77E622540A120069CFAA /* TestXibView.swift */,
 				2CFED9D822620516003F29E8 /* TestXibViewController.swift */,
-				2CFED9D922620516003F29E8 /* TestXibViewController.xib */,
-				2C3FB2A222539553005CF327 /* TestXibView.xib */,
-				2C3FB2962253938D005CF327 /* Assets.xcassets */,
-				2C3FB2982253938D005CF327 /* LaunchScreen.storyboard */,
+				2C4C836B2263469800734C4E /* View */,
 				2C3FB29B2253938D005CF327 /* Info.plist */,
+				2C3FB2962253938D005CF327 /* Assets.xcassets */,
 			);
 			path = testXib;
+			sourceTree = "<group>";
+		};
+		2C4C836B2263469800734C4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CFED9D922620516003F29E8 /* TestXibViewController.xib */,
+				2C3FB2A222539553005CF327 /* TestXibView.xib */,
+				2C3FB2982253938D005CF327 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

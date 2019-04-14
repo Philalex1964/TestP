@@ -19,6 +19,15 @@ class TestXibView: UIView {
     
     @IBOutlet weak var view: UIView!
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setup()
+    }
     
-    
+    func setup() {
+        Bundle.main.loadNibNamed("TestXibView", owner: self, options: nil)
+        view.frame = self.bounds
+        view.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        self.addSubview(view)
+    }
 }
